@@ -17,6 +17,9 @@ const app = express()
 
 app.use(express.json())
 
+app.get('/', (req, res) => {
+  res.send('Bienvenido al servidor en linea')
+})
 
 app.get("/todos", async (req, res) => {
   try {
