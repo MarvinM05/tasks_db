@@ -76,6 +76,3 @@ app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT}`);
 })
 
-app.get("/", (req, res) => {
-  console.log("Bienvenido a al servidor en linea");
-});
