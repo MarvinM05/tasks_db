@@ -13,8 +13,3 @@ const db = new Sequelize({
 
 module.exports = db
 
-// from external database: tasks_db_qcpe_user:teHE86LdOdK4Gk2zAAwfH2ufLGgpSYkf@dpg-cihneq5gkuvojja62gjg-a.oregon-postgres.render.com/tasks_db_qcpe
-
-//host: dpg-cihneq5gkuvojja62gjg-a.oregon-postgres.render.com
-
-// password: teHE86LdOdK4Gk2zAAwfH2ufLGgpSYkf;
