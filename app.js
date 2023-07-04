@@ -17,9 +17,6 @@ const app = express()
 
 app.use(express.json())
 
-app.get('/', (req, res) => {
-  console.log("Bienvenido a al servidor en linea");
-})
 
 app.get("/todos", async (req, res) => {
   try {
@@ -78,3 +75,7 @@ app.delete("/todos/:id", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT}`);
 })
+
+app.get("/", (req, res) => {
+  console.log("Bienvenido a al servidor en linea");
+});
